@@ -1,0 +1,477 @@
+INFO - 2024-11-27 10:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 10:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 11:00:56 --> Error: Class "App\Models\IncidentModel" not found
+[Method: POST, Route: store]
+in APPPATH\Controllers\incidentController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+INFO - 2024-11-27 11:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 11:28:28 --> CodeIgniter\Validation\Exceptions\ValidationException: "2024-11-09" is not a valid rule.
+[Method: POST, Route: incident/store]
+in SYSTEMPATH\Validation\Validation.php on line 348.
+ 1 SYSTEMPATH\Validation\Validation.php(348): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('2024-11-09')
+ 2 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('date_incident', 'date_incident', '2024-11-09', [...], [...], 'date_incident')
+ 3 APPPATH\Controllers\incidentController.php(32): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+INFO - 2024-11-27 11:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 11:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 12:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 19:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 19:22:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tables.php"
+[Method: GET, Route: tables]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tables.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('tables')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 19:22:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tables.php"
+[Method: GET, Route: tables]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tables.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('tables')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 19:34:05 --> ErrorException: Undefined variable $incidents
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 267.
+ 1 APPPATH\Views\tables.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incidents', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 267)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 19:34:27 --> ErrorException: Undefined variable $incidents
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 267.
+ 1 APPPATH\Views\tables.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incidents', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 267)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 19:34:29 --> ErrorException: Undefined variable $incidents
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 267.
+ 1 APPPATH\Views\tables.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incidents', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 267)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 19:35:28 --> ErrorException: Undefined variable $incidents
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 267.
+ 1 APPPATH\Views\tables.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incidents', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 267)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 19:35:29 --> ErrorException: Undefined variable $incidents
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 267.
+ 1 APPPATH\Views\tables.php(267): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incidents', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 267)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 20:05:27 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 262.
+ 1 APPPATH\Views\tables.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 262)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(75): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+INFO - 2024-11-27 22:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 22:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 22:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 22:17:25 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:17:26 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:19:25 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+INFO - 2024-11-27 22:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 22:19:34 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:19:38 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:22:30 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+INFO - 2024-11-27 22:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 22:22:48 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:22:52 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:24:00 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:24:01 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:24:22 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:26:01 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:26:05 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(72): view('tables', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:27:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "table.php"
+[Method: GET, Route: tables]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('table', [], true)
+ 3 APPPATH\Controllers\incidentController.php(15): view('table')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:27:51 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(15): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:27:55 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(15): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+INFO - 2024-11-27 22:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 22:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 22:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 22:34:50 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(15): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:34:51 --> ErrorException: Undefined variable $incident
+[Method: GET, Route: tables]
+in APPPATH\Views\tables.php on line 263.
+ 1 APPPATH\Views\tables.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $incident', 'C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php', 263)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\projet_web\\app\\Views\\tables.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tables', [], true)
+ 5 APPPATH\Controllers\incidentController.php(15): view('tables')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IncidentController->tables()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IncidentController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
+CRITICAL - 2024-11-27 22:52:27 --> ParseError: syntax error, unexpected token "}", expecting ";"
+[Method: GET, Route: tables]
+in APPPATH\Controllers\incidentController.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\projet_web\\app\\Controllers\\IncidentController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\IncidentController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\IncidentController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\IncidentController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet_web\\public\\index.php')
